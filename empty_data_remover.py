@@ -29,7 +29,7 @@ def remove_empty_data (labels_folder, images_folder):
 
     final_label_count = len([f for f in os.listdir(labels_folder) if f.endswith('.txt')])
     final_image_count = len([f for f in os.listdir(images_folder) if
-                             any(f.endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".bmp", ".gif"])])
+                             any(f.endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".bmp", ".gif", '.JPG', '.PNG', '.JPEG'])])
 
     print(f"Initial Label Count: {initial_label_count}")
     print(f"Final Label Count: {final_label_count}")
@@ -51,7 +51,7 @@ def process_folders(root_folder):
 
 
 def main():
-    root_folder = r"your/folder/path" # your root folder path
+    root_folder = r"path/to/your/root/folder" # your root folder path
     process_folders(root_folder)
 
 
