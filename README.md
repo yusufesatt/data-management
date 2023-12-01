@@ -6,7 +6,7 @@
 
 - [Empty Data Remover](#empty-data-remover)
 
-## Tools
+## Tools 
 
 <h3 id="empty-data-remover">Empty Data Remover</h3>
 
@@ -15,5 +15,5 @@ This tool deletes both the image and the label files of the data that have empty
 #### Use Case:
 ##### Note: This is how it will be used in the future, for now you need to give the root folder from the py file.
 ```bash
-python empty_data_remover.py --input_path path//your/folder
+python empty_data_remover.py --input_path path/to/your/folder
 ```
