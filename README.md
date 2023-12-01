@@ -19,5 +19,7 @@ python empty_data_remover.py --input_path path/to/your/folder
 ```
 
 ### Contribution
+
 <hr>
+
 #### If you want to contribute to this project, please open a new issue or submit a merge request. Waiting for your contributions 🚀
