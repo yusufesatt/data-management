@@ -30,7 +30,7 @@ def txt_folders_class_count(input_path):
                             class_annotation_numbers[class_id] += 1
 
     for class_id, annotation_number in class_annotation_numbers.items():
-        print(f"Category id: {class_id} Total annotation: {annotation_number}")
+        print(f"Category ID: {class_id} Number of Annotations: {annotation_number}")
 
     total_annotation = sum(class_annotation_numbers.values())
     print(f"Total number of annotations: {total_annotation}")
