@@ -45,6 +45,8 @@ This project calculates how many annotations there are for each class by reading
 
 This allows you to understand whether your data is balanced or unbalanced. 
 
+**Note:** This tool only works for data in txt format but will soon support coco format
+
 #### Use Case:
 
 ```bash
