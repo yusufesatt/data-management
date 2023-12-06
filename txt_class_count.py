@@ -30,10 +30,10 @@ def txt_folders_class_count(input_path):
                             class_annotation_numbers[class_id] += 1
 
     for class_id, annotation_number in class_annotation_numbers.items():
-        print(f"Category id: {class_id} Toplam annotation: {annotation_number}")
+        print(f"Category id: {class_id} Total annotation: {annotation_number}")
 
     total_annotation = sum(class_annotation_numbers.values())
-    print(f"Toplam annotation sayısı: {total_annotation}")
+    print(f"Total number of annotations: {total_annotation}")
 
 parser = argparse.ArgumentParser(description='Txt folders class count')
 parser.add_argument('--input_path', type=str, help='Txt folders path', required=True)
