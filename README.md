@@ -50,6 +50,16 @@ This allows you to understand whether your data is balanced or unbalanced.
 ```bash
 python txt_class_count.py --input_path path/to/your/dataset/train
 ```
+
+#### Output:
+
+```bash
+Category id: 1 Total annotation: 100
+Category id: 2 Total annotation: 200
+Category id: 3 Total annotation: 300
+Total number of annotations: 600
+```
+
 <hr>
 
 ### Contribution
