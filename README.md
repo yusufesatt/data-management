@@ -9,7 +9,7 @@
 
 ## Tools 
 
-1. <h3 id="empty-data-remover">Empty Data Remover</h3>
+<h3 id="empty-data-remover">1. Empty Data Remover</h3>
 
 This tool deletes both the image and the label files of the data that have empty label txt's in the dataset.
 
@@ -38,7 +38,8 @@ python empty_data_remover.py --input_path path/to/your/root/folder
 ```
 <hr>
 
-2. <h3 id="class-counter">Txt Class Counter</h3>
+<h3 id="class-counter">2. Txt Class Counter</h3>
+
 
 This project calculates how many annotations there are for each class by reading the txt files in the specified folder.
 
