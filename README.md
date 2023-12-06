@@ -48,7 +48,7 @@ This allows you to understand whether your data is balanced or unbalanced.
 #### Use Case:
 
 ```bash
-python txt_class_count.py.py --input_path path/to/your/dataset/train
+python txt_class_count.py --input_path path/to/your/dataset/train
 ```
 <hr>
 
