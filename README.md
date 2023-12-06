@@ -13,23 +13,24 @@
 This tool deletes both the image and the label files of the data that have empty label txt's in the dataset.
 
 #### Sample folder schema:
-**Warning !:** In the root folder, except for train, test, and valid folders, only txt and yaml files can be found, do not add files with different extensions.
+**Warning! :** In the root folder, except for train, test, and valid folders, only txt and yaml files can be found, do not add files with different extensions.
 
 <pre>
---data "> this root folder path"
-    --train
-        --images
-        --labels
-    --test
-        --images
-        --labels
-    --valid
-        --images
-        --labels
+├─data
+    ├─train
+        ├─images
+        ├─labels
+    ├─test
+        ├─images
+        ├─labels
+    ├─valid
+        ├─images
+        ├─labels
 </pre>
 
+
 #### Use Case:
-##### Note: It will be used this way in the future, for now, you need to provide the root folder from the py file and it only works for tags in txt format.
+##### Note: Currently only works for data in txt format.
 
 ```bash
 python empty_data_remover.py --input_path path/to/your/root/folder
