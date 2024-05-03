@@ -64,7 +64,10 @@ Total number of annotations: 600
 
 <hr>
 
-### Contribution
-<hr>
+## Contributing
 
-#### If you want to contribute to this project, please open a new issue or submit a merge request. Waiting for your contributions 🚀
+If you encounter issues or have suggestions for improvements, please report them on the GitHub repository 🚀.
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/yusufesatt/data-management/?tab=MIT-1-ov-file).
