@@ -75,4 +75,3 @@ print(f"Root Folder Path: {args.input_path}")
 input_path = args.input_path
 data_remover = DataRemover(input_path)
 data_remover.process_folders()
-print("doe")
